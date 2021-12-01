@@ -1,0 +1,16 @@
+.testimonial-area {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vw;
+    background-color: #5e5e77a8;
+}
+.testimonial-area > img {
+    display: flex;
+    flex-wrap: wrapg;
+    flex-direction: column;
+    height: 5vw;
+
+
+
+}

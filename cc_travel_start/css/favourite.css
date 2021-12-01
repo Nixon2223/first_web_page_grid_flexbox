@@ -1,0 +1,30 @@
+.favourite {
+  display: flex;
+  justify-content: space-evenly;
+  background-position: center;
+  height: 20vh;
+  gap: 8%;
+  color:white;
+  margin: 2% 5% 2% 5%;
+}
+
+.favourite-bg-1 {
+    background-image: url(../img/favourites/indonesia.png);
+    background-position: center;
+    flex: 20%;
+    width: 20%;
+  }
+  
+  .favourite-bg-2 {
+    background-image: url(../img/favourites/australia.png);
+    background-position: center;
+    flex: 20%;
+  }
+  
+  .favourite-bg-3 {
+    background-image: url(../img/favourites/switzerland.png);
+    background-position: center;
+    flex: 20%;
+  }
+  
+  

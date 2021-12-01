@@ -1,0 +1,25 @@
+.popular-title {grid-area: title;
+  text-align: center;
+}
+.popular-title-places{
+    text-align: left;
+
+
+}
+.popular-1 {grid-area: img1;}
+.popular-2 {grid-area: img2;}
+.popular-3 {grid-area: img3;}
+.popular-4 {grid-area: img4;}
+.popular-5 {grid-area: img5;}
+.popular-6 {grid-area: img6;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'title title title'
+    'img1 img2 img3'
+    'img4 img5 img6';
+    justify-content: space-evenly;
+    padding:2%;
+}
+
